@@ -60,7 +60,7 @@ fun main(){ // Criaçao de Médico
     paciente2.dataNascimento = LocalDate.of(2008, 6, 1)
     paciente2.mostrarDados()
 
-    // Criar uma consulta pro cliente
+    // Criar uma consulta pro clientes
 
     var c1 = Consulta()
     c1.marcarConsulta(valor = 100.0, LocalDate.of(2025,2,26))
